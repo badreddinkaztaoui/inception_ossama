@@ -1,0 +1,4 @@
+1 - Create Docker file of NGINX 
+2 - Run this command 'docker build -t nginx-custom:latest . '
+3 - Run this command to create a container from the previous image created ' docker run -d -p 8443:443 -p 8000:80 --name my-nginx-c nginx-custom:latest'
+4 - Run this command to run an interactive bash shell inside a running Docker container "docker exec -it my-nginx-c bash"
